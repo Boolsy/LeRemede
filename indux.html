@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/molinolo.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Le Remède Universel</title>
+</head>
+<body>
+    <img src="img/background.jpg" alt="Background" class="background-image">
+    <div class="container">
+        <button id="mainBtn">Cliquez ici</button>
+        <div id="loadingBox" class="hidden">
+            <div class="meter animate">
+                <span id="loadingBar" style="width: 0%"><span></span></span>
+            </div>
+            <p id="message"></p>
+        </div>
+        <div id="successBox" class="hidden">
+            <div class="success-content">
+                <span class="checkmark">✓</span>
+                <p id="message">Bravo, vos soucis du quotidien ont disparu !</p>
+                <button id="okBtn" class="ok-btn">OK</button>
+            </div>
+        </div>
+        
+    <footer id="footer">
+        <a href="https://github.com/Boolsy" target="_blank">
+            <img src="img/github.png" alt="GitHub Icon" width="30" height="30" />
+        </a>
+    </footer>
+
+    <script src="Js/Function.js"></script>
+</body>
+</html>
